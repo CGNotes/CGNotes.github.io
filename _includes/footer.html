@@ -1,0 +1,28 @@
+    {% if site.footer_fixed %}
+    <footer class="fixed-bottom">
+      <div class="container">
+          <div class="footr">
+              For inquiries, please send an email to
+              <a href="mailto:amrhmorsy@proton.me">amrhmorsy@proton.me</a>
+              <br>
+              <br>
+              &copy; {{ site.time | date: '%Y' }} Amr Morsy
+          </div>
+      </div>
+    </footer>
+    {%- else -%}
+    <footer class="sticky-bottom">
+      <div class="container">
+          <div class="footr">
+              <br>
+              For inquiries, please send an email to
+              <a href="mailto:amrhmorsy@proton.me">amrhmorsy@proton.me</a>
+              <br>
+              <br>
+              &copy; {{ site.time | date: '%Y' }} Amr Morsy
+              <br>
+              <br>
+          </div>
+      </div>
+    </footer>
+    {%- endif %}
