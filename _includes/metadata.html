@@ -28,6 +28,8 @@
     {%- elsif page.title != "blank" and page.url != "/" -%}
         {%- if page.title == nil or page.title == "" -%}
             {{ page.date | date: "%Y" }} | {{ title }}
+        {%- elsif page.title == title -%}
+            {{ title }}
         {%- else -%}
             {{ page.title }} | {{ title }}
         {%- endif -%}

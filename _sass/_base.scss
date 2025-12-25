@@ -354,6 +354,7 @@ blockquote {
 }
 
 .navbar-toggler.collapsed {
+  display: none !important;
   .top-bar {
     transform: rotate(0);
   }
@@ -1155,3 +1156,9 @@ nav[data-toggle="toc"] {
 .card-title {
     font-weight: bold !important;
 }
+
+
+
+
+
+
