@@ -465,7 +465,7 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
     background-color: var(--global-footer-bg-color);
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     
     .container {
         color: var(--global-footer-text-color);
@@ -473,6 +473,7 @@ footer.sticky-bottom {
 
     a{
         color: var(--global-footer-link-color);
+        text-decoration: underline;
         &:hover {
             color: var(--global-theme-color);
             text-decoration: none;
@@ -553,6 +554,7 @@ footer.sticky-bottom {
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+    font-weight: bold;
   }
 }
 

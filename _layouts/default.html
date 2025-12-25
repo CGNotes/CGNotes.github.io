@@ -47,24 +47,10 @@
     </div>
 
     
-    <!-- Footer -->
-    {% if page.url == "/" %}
-        <!-- Social -->
-        {%- if page.social %}
-          <div class="social">
-            <div class="contact-icons">
-              {% include social.html %}
-            </div>
+    
+    {% include footer.html %}
 
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-
-          </div>
-        {%- endif %}
-      {% include footer.html %}
-    {% endif %}
-
+    
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}

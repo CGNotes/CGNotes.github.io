@@ -371,12 +371,3 @@ Otherwise, the pixel is outside the triangle and it will not be shaded.
 <br>
 
 ***
-
-<br>
-
-> I offer **graphics programming** services for both students and professionals - including **private tutoring** and **project development** for custom games, engines, and real-time applications.
-<br>
-<br>
-**Learn more →** [Tutoring](https://amrhmorsy.github.io/tutoring/)
-<br>
-**Learn more →** [Project Development](https://amrhmorsy.github.io/ProjectDevelopment/)
