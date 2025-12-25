@@ -2,13 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:_bibliography">
-   </FileRef>
-   <FileRef
       location = "group:_config.yml">
-   </FileRef>
-   <FileRef
-      location = "group:_data">
    </FileRef>
    <FileRef
       location = "group:_includes">
@@ -62,19 +56,9 @@
       location = "group:purgecss.config.js">
    </FileRef>
    <FileRef
-      location = "group:README.md">
-   </FileRef>
-   <FileRef
       location = "group:reports">
    </FileRef>
    <FileRef
       location = "group:robots.txt">
    </FileRef>
-   <Group
-      location = "group:_projects"
-      name = "_projects">
-      <FileRef
-         location = "group:Vejaler.md">
-      </FileRef>
-   </Group>
 </Workspace>
